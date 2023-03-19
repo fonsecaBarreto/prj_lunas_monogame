@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/areia.png</File>
+    <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/boneca_luna.png</File>
+    <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/boneca_lunav2.png</File>
+    <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/boneca_lunav3.png</File>
+    <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/grass.png</File>
+    <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/groud.jpg</File>
+    <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/moon.jpg</File>
+    <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/sprites.webp</File>
+    <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/spritesfinal.png</File>
+    <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/tree.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
