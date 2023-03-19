@@ -20,9 +20,10 @@ namespace Project_lebron.src.classes
             int seconds = gameTime.TotalGameTime.Seconds;
         }
 
-        public void Draw(ref SpriteBatch spriteBatch)
+        public void Draw(ref SpriteBatch spriteBatch, int xoffset, int yoffset)
         {
-            Draw(ref spriteBatch, body);
+            Rectangle relative_body = new Rectangle(xoffset + body.X, yoffset + body.Y, body.Width, body.Height);
+            Draw(ref spriteBatch, relative_body);
         }
 
         public Scenery(Rectangle rect)

@@ -65,7 +65,7 @@ namespace Project_lebron.src.classes
             // borders
             Texture2D _blankTexture = new Texture2D(spriteBatch.GraphicsDevice, 1, 1);
             _blankTexture.SetData(new[] { Color.Red });
-            //spriteBatch.Draw(_blankTexture, new Vector2(body.X, body.Y), body, Color.White);
+            spriteBatch.Draw(_blankTexture, new Vector2(body.X, body.Y), body, Color.White);
             // textures
 
             // se nao fo reptir, scala dee se adequear ao body;
