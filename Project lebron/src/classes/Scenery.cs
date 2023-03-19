@@ -1,12 +1,10 @@
-﻿using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using System.Diagnostics;
 
 namespace Project_lebron.src.classes
 {
-	public class Scenery : AnimacaoSprite
+	public class Scenery : BaseObject
     {
-        public Rectangle body = Rectangle.Empty;
 
         public void Mover(ref GameTime gameTime)
         {
@@ -14,15 +12,9 @@ namespace Project_lebron.src.classes
             int seconds = gameTime.TotalGameTime.Seconds;
         }
 
-        public void Draw(ref SpriteBatch spriteBatch)
-        {
-            Draw(ref spriteBatch, body);
+        public Scenery(Rectangle rect) : base(rect, new Vector2(0f)) { 
         }
 
-        public Scenery(Rectangle rect)
-        {
-            body = rect;
-        }
     }
 
 }

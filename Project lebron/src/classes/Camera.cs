@@ -14,9 +14,9 @@ namespace Project_lebron.src.classes
             this._height = height;
         }
        
-        public void Follow(Character target)
+        public void Follow(BaseObject target)
         {
-            Rectangle rect = target.body;
+            Rectangle rect = target.Body;
 
             var position = Matrix.CreateTranslation( -rect.X - (rect.Width / 2), -rect.Y - (rect.Height / 2), 0);
             var offset = Matrix.CreateTranslation(

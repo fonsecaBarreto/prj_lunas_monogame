@@ -34,3 +34,7 @@ C:\Users\lucas\source\repos\Project lebron\Project lebron\bin\Debug\net6.0\Conte
 C:\Users\lucas\source\repos\Project lebron\Project lebron\bin\Debug\net6.0\Content\areia.xnb
 C:\Users\lucas\source\repos\Project lebron\Project lebron\bin\Debug\net6.0\Content\boneca_lunav2.xnb
 C:\Users\lucas\source\repos\Project lebron\Project lebron\bin\Debug\net6.0\Content\boneca_lunav3.xnb
+C:\Users\lucas\source\repos\Project lebron\Project lebron\bin\Debug\net6.0\Content\spritesv2.xnb
+C:\Users\lucas\source\repos\Project lebron\Project lebron\bin\Debug\net6.0\Content\spritesv3.xnb
+C:\Users\lucas\source\repos\Project lebron\Project lebron\bin\Debug\net6.0\Content\lava.xnb
+C:\Users\lucas\source\repos\Project lebron\Project lebron\bin\Debug\net6.0\Content\bedrock.xnb

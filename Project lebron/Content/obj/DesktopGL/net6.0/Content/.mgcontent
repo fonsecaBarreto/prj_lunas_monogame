@@ -5,17 +5,25 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/areia.png</File>
+    <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/bedrock.webp</File>
     <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/boneca_luna.png</File>
     <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/boneca_lunav2.png</File>
     <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/boneca_lunav3.png</File>
     <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/grass.png</File>
     <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/groud.jpg</File>
+    <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/lava.jpeg</File>
     <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/moon.jpg</File>
     <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/sprites.webp</File>
     <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/spritesfinal.png</File>
+    <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/spritesv2.png</File>
+    <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/spritesv3.png</File>
     <File>C:/Users/lucas/source/repos/Project lebron/Project lebron/Content/tree.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
