@@ -9,7 +9,7 @@ namespace Project_lebron.src.classes
     public class Character : AnimacaoSprite
     {
         public Vector2 Velocidade = new Vector2(300f);
-        private Rectangle body = new Rectangle(0, 0, 1, 1);
+        public Rectangle body = Rectangle.Empty;
         private int _playerIndex;
 
         public Character(Rectangle rect, int index = 0)
@@ -23,19 +23,9 @@ namespace Project_lebron.src.classes
             return new Vector2(body.X, body.Y);
         }
 
-        public Vector2 getRelativePosition()
+        public void Draw(ref SpriteBatch spriteBatch)
         {
-            return new Vector2(body.X - (body.Width / 2), body.Y - (body.Height / 2));
-        }
-        public void Draw(ref SpriteBatch spriteBatch, int xoffset, int yoffset)
-        {
-            Rectangle relative_body = new Rectangle(
-                xoffset - (body.Width / 2), 
-                yoffset - (body.Height / 2), 
-                body.Width, 
-                body.Height
-            );
-            Draw(ref spriteBatch, relative_body);
+            Draw(ref spriteBatch, body);
         }
 
         public void Mover(ref GameTime gameTime)

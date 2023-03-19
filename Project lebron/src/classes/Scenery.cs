@@ -1,18 +1,12 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
-using System.Text.RegularExpressions;
-using Microsoft.Xna.Framework.Content;
-using System;
-using Microsoft.Xna.Framework.Input;
 using System.Diagnostics;
 
 namespace Project_lebron.src.classes
 {
 	public class Scenery : AnimacaoSprite
     {
-        private Rectangle body = new Rectangle(0, 0, 1, 1);
-        private Vector2 _tilesDimensions = new Vector2(320, 320);
-        private int count = 0;
+        public Rectangle body = Rectangle.Empty;
 
         public void Mover(ref GameTime gameTime)
         {
@@ -20,10 +14,9 @@ namespace Project_lebron.src.classes
             int seconds = gameTime.TotalGameTime.Seconds;
         }
 
-        public void Draw(ref SpriteBatch spriteBatch, int xoffset, int yoffset)
+        public void Draw(ref SpriteBatch spriteBatch)
         {
-            Rectangle relative_body = new Rectangle(xoffset + body.X, yoffset + body.Y, body.Width, body.Height);
-            Draw(ref spriteBatch, relative_body);
+            Draw(ref spriteBatch, body);
         }
 
         public Scenery(Rectangle rect)

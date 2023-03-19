@@ -19,7 +19,7 @@ namespace Project_lebron.src.classes
         public Texture2D _textura;
         private int _frameLargura;
         private int _frameAltura;
-        protected Rectangle _regiaoDaTextura = Rectangle.Empty;
+        public Rectangle _regiaoDaTextura = Rectangle.Empty;
         private int _frameAtualDaColuna;
         private TimeSpan _acumulaTempo = TimeSpan.Zero;
         private int TotalColunasNaSprite = 0;
